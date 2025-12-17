@@ -1,0 +1,22 @@
+name="Gopal Jadhav"
+print(name,type(name),len(name))
+res1=name[2]+name[3]+name[4]
+print(res1)
+res2=name[0]+name[1]
+print(res2)
+res3=name[-1]+name[-2]+name[-3]+name[-4]+name[-5]+name[-6]
+print(res3)
+res4=name[0]+name[1]+name[2]+name[3]+name[-4:]+name[-5:]
+print(res4)
+res5=name[:5]
+print(res5)
+res7=name[-6:]
+print(res7)
+res8=name[-6:-4]+name[:5]
+print(res8)
+res6=name[0:-4]+name[:5]
+print(res6)
+res9=name[-8:-4]+name[:]
+print(res9)
+res10=name[5:-4]+name[-5:5]
+print(res10)
